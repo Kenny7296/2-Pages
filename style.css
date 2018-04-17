@@ -1,3 +1,6 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, serif;
+}
 
 #LeftColumn {
     background-image: url("images/bird.png");
@@ -5,14 +8,37 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Helvetica Neue";
-    text-align: center;
+    padding: 115px 130px 40px;
 }
 
 #RightColumn {
     background-color: #192C3D;
-    font-family: "Helvetica Neue";
-    text-align: center;
+    padding: 80px 130px 40px;
+}
+
+
+#signup {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+#signup a {
+    color: white;
+    text-decoration: none;
+}
+
+#login {
+    border: 1px solid #1DA1F2;
+    background-color: #192C3D;
+}
+
+#login a {
+    color: #1DA1F2;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #4CAF50;
 }
 
 .row {
@@ -20,23 +46,28 @@
 }
 
 .navbar-custom {
-    background-color: rgb(25, 44, 61);
+    border-top: 1px solid #141d26;
+    background-color: #1b2836;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-.navbar-custom .navbar-nav a {
-    color: #bbbdc1;
-    font-size: small;
-    font-family: "Helvetica Neue";
-    text-decoration: none;
+.nav-item {
+    padding: 0 5px 0 5px;
 }
 
-.navbar-custom .navbar-text {
-    color: #bbbdc1;
-    font-size: small;
-    font-family: "Helvetica Neue";
-    text-decoration: none;
+.nav-link {
+    color: #aab8c2;
+    font-size: 11px;
+    text-align: center;
 }
 
-.navbar-custom .navbar-nav a:hover {
+.navbar-text {
+    color: #aab8c2;
+    font-size: 11px;
+}
+
+a:link a:hover {
     text-decoration: underline;
 }
