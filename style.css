@@ -1,0 +1,42 @@
+
+#LeftColumn {
+    background-image: url("images/bird.png");
+    background-color: #1DA1F2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Helvetica Neue";
+    text-align: center;
+}
+
+#RightColumn {
+    background-color: #192C3D;
+    font-family: "Helvetica Neue";
+    text-align: center;
+}
+
+.row {
+    color: white;
+}
+
+.navbar-custom {
+    background-color: rgb(25, 44, 61);
+}
+
+.navbar-custom .navbar-nav a {
+    color: #bbbdc1;
+    font-size: small;
+    font-family: "Helvetica Neue";
+    text-decoration: none;
+}
+
+.navbar-custom .navbar-text {
+    color: #bbbdc1;
+    font-size: small;
+    font-family: "Helvetica Neue";
+    text-decoration: none;
+}
+
+.navbar-custom .navbar-nav a:hover {
+    text-decoration: underline;
+}
